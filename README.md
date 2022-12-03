@@ -1,7 +1,7 @@
 # CustomSlider
 CustomSlider is a custom implementation of a slider, similar to UISlider, for predefined values
 
-![](screenshots/example.mp4)
+![](screenshots/example.gif)
 
 ## Usage
 
