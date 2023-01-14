@@ -25,8 +25,8 @@ protocol CustomSliderDelegate: AnyObject {
 /// sliderCustomView.delegate = self
 /// sliderCustomView.scrollStartSlider(to: 1, andEnd: 6) // index Slider start at 1.
 ///
-/// // MARK: - TPCustomSliderDelegate
-/// func sliderScrolled(_ slider: TPCustomSlider?, toMinIndex minIndex: Int, andMaxIndex maxIndex: Int, endDragDrop: Bool) {
+/// // MARK: - CustomSliderDelegate
+/// func sliderScrolled(_ slider: CustomSlider?, toMinIndex minIndex: Int, andMaxIndex maxIndex: Int, endDragDrop: Bool) {
 ///    sliderCustomView.minRangeText = sliderValueArray[minIndex]
 ///    sliderCustomView.maxRangeText = sliderValueArray[maxIndex]
 /// }
